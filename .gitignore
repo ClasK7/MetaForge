@@ -1,0 +1,13 @@
+# Entornos virtuales
+venv/
+env/
+
+# Caché de Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Archivos temporales de ExifTool y Sistema Opeartivo
+*_exiftool_tmp
+.DS_Store
+*.zip
