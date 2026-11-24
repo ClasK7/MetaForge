@@ -18,7 +18,7 @@ MetaForge es una herramienta forense de código abierto construida en Python par
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/TU_USUARIO/MetaForge.git](https://github.com/TU_USUARIO/MetaForge.git)
+   git clone [https://github.com/ClasK7/MetaForge.git](https://github.com/ClasK7/MetaForge.git)
    cd MetaForge
 2. **Crear y activar un entorno virtual:**
 
