@@ -7,6 +7,7 @@ MetaForge es una herramienta forense de código abierto construida en Python par
 ## Requisitos Previos
 
 * **Python 3.8+** instalado en el sistema.
+* **Git** instalado en el sistema
 * **ExifTool**: 
   * En **Windows**, el ejecutable ya está incluido en la carpeta `bin/`.
   * En **Linux/Debian/Kali**, debes instalarlo a nivel de sistema:
@@ -18,28 +19,28 @@ MetaForge es una herramienta forense de código abierto construida en Python par
 
 1. **Clonar el repositorio:**
    ```bash
-   git clone [https://github.com/ClasK7/MetaForge.git](https://github.com/ClasK7/MetaForge.git)
-   cd MetaForge
+   - git clone https://github.com/ClasK7/MetaForge.git
+   - cd MetaForge
 2. **Crear y activar un entorno virtual:**
 
    * **En Windows (PowerShell/CMD):**
      ```cmd
-     python -m venv venv
-     .\venv\Scripts\activate
+     - python -m venv venv
+     - .\venv\Scripts\activate
      ```
 
    * **En Linux:**
      ```bash
-     python3 -m venv venv
-     source venv/bin/activate
+     - python3 -m venv venv
+     - source venv/bin/activate
      ```
 
 3. **Instalar dependencias:**
    ```bash
-   pip install -r requirements.txt
+   - pip install -r requirements.txt
    ```
 
 4. **Lanzar la aplicación:**
    ```bash
-   python main.py
+   - python main.py
    ```
