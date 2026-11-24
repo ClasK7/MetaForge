@@ -4,16 +4,23 @@ MetaForge es una herramienta forense de código abierto construida en Python par
 
 ![Interfaz de MetaForge](assets/Cap_metaforge.jpg)
 
-## Requisitos Previos
+### 0. Requisitos Previos (Si es tu primera vez)
 
-* **Python 3.8+** instalado en el sistema.
-* **Git** instalado en el sistema
-* **ExifTool**: 
-  * En **Windows**, el ejecutable ya está incluido en la carpeta `bin/`.
-  * En **Linux/Debian/Kali**, debes instalarlo a nivel de sistema:
-    ```bash
-    sudo apt update && sudo apt install libimage-exiftool-perl
-    ```
+Para poder descargar y ejecutar esta herramienta, tu computadora necesita dos programas básicos: **Git** y **Python**.
+
+**En Windows:**
+
+* **Git:** Descarga el instalador desde [git-scm.com](https://git-scm.com/download/win) e instálalo dejando todas las opciones por defecto (solo haz clic en "Next" hasta terminar).
+
+* **Python:** Descarga la última versión desde [python.org](https://www.python.org/downloads/). **⚠️ MUY IMPORTANTE:** Al abrir el instalador, fíjate en la primera pantalla, abajo del todo. **Debes marcar la casilla que dice "Add Python to PATH"** (o "Add python.exe to PATH") antes de hacer clic en "Install Now". Si no marcas esto, los comandos no funcionarán.
+
+**En Linux (Ubuntu/Debian/Kali):**
+Abre tu terminal y ejecuta este comando para instalar todo lo necesario de golpe:
+
+```
+sudo apt update && sudo apt install git python3 python3-venv python3-pip
+
+```
 
 ## Instalación y Ejecución
 
