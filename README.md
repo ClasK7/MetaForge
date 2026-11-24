@@ -26,28 +26,31 @@ sudo apt update && sudo apt install git python3 python3-venv python3-pip
 
 1. **Clonar el repositorio:**
    ```bash
-   - git clone https://github.com/ClasK7/MetaForge.git
-   - cd MetaForge
+   git clone https://github.com/ClasK7/MetaForge.git
+
+   cd MetaForge
 2. **Crear y activar un entorno virtual:**
 
    * **En Windows (PowerShell/CMD):**
      ```cmd
-     - python -m venv venv
-     - .\venv\Scripts\activate
+     python -m venv venv
+
+     .\venv\Scripts\activate
      ```
 
    * **En Linux:**
      ```bash
-     - python3 -m venv venv
-     - source venv/bin/activate
+     python3 -m venv venv
+
+     source venv/bin/activate
      ```
 
 3. **Instalar dependencias:**
    ```bash
-   - pip install -r requirements.txt
+   pip install -r requirements.txt
    ```
 
 4. **Lanzar la aplicación:**
    ```bash
-   - python main.py
+   python main.py
    ```
