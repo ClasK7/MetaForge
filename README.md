@@ -2,7 +2,7 @@
 
 MetaForge es una herramienta forense de código abierto escrita en Python para inspeccionar, analizar, editar y purgar metadatos de imágenes, archivos multimedia, documentos de Microsoft Office (`.docx`, `.xlsx`, `.pptx`) y archivos PDF. Incluye un escáner forense para detectar firmas de Inteligencia Artificial y credenciales C2PA, anomalías estructurales y fugas de privacidad (OPSEC), trabajando siempre con copias no destructivas (`_procesado`) para mantener intacto el archivo original.
 
-![Interfaz de MetaForge](assets/Cap_metaforge.jpg)
+![Interfaz de MetaForge](assets/cap_metaforgev2.jpg)
 
 ## Características principales
 
