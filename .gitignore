@@ -1,5 +1,6 @@
 # Entornos virtuales
 venv/
+.venv/
 env/
 
 # Caché de Python
@@ -7,7 +8,13 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# Archivos temporales de ExifTool y Sistema Opeartivo
+# Binarios locales de ExifTool en Windows
+bin/
+
+# Archivos temporales y copias procesadas locales
 *_exiftool_tmp
+*_procesado*
+
+# Archivos del sistema operativo
 .DS_Store
-*.zip
+Thumbs.db
